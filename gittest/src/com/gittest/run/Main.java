@@ -1,8 +1,9 @@
 package com.gittest.run;
 
+import com.gittest.controller.GitController;
+
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hellow Git Nice to meet you");
-		System.out.println("I`m dev ohahaha!");
+		new GitController().test();
 	}
 }
